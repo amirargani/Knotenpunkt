@@ -1,0 +1,23 @@
+# Standard: Textdateien mit LF
+* text=auto eol=lf
+
+# Java source code
+*.java text diff
+
+# Kotlin (falls genutzt)
+*.kt text diff
+
+# Gradle files
+*.gradle text
+
+# XML/JSON resources
+*.xml text
+*.json text
+
+# Markdown / Docs
+*.md text
+*.txt text
+
+# Merge strategy for project files
+*.iml text merge=union
+*.idea/** text merge=union
