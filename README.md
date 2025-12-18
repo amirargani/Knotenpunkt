@@ -1,31 +1,78 @@
-# 🙏 Worship Service Management App
+# 🙏 Knotenpunkt - Worship Service Management App
 
-A cross-platform mobile application designed to simplify church administration and enhance community engagement. Built for both **iOS** and **Android**, this app helps churches organize worship services, manage events, and communicate effectively with members.
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+![Platform](https://img.shields.io/badge/Platform-Android-green.svg)
+![Language](https://img.shields.io/badge/Language-Java-orange.svg)
+![Min SDK](https://img.shields.io/badge/Min%20SDK-24%20(Android%207.0)-blue.svg)
+
+A professional Android application designed to streamline church administration and enhance community engagement. **Knotenpunkt** serves as the central platform for organizing worship services, managing events, and keeping the community connected.
+
+---
 
 ## ✨ Features
 
-### 🗓 Worship Schedule Management
-Create, edit, and publish service plans with ease.
+### 🗓 Worship Schedule (Godiplan)
+Full access to the service plan. See who is moderating, preaching, lead the children's moment, or helping with cleaning services.
+- **Detailed Roles:** Moderation, KidsGo, Music (optional), Predigt, Putzdienst, and more.
+- **Location & Time:** Get clear info on where and when each service takes place.
 
-### 📆 Calendar Integration
-View upcoming events, services, and activities in a unified calendar.
+### 📅 Integrated Calendar
+A unified view of all upcoming church events, services, and community activities.
+- **Real-time updates:** Synchronized with the central database.
+- **Event Details:** Start/End times, titles, descriptions, and locations.
 
-### 📝 Registration System
-Allow members to sign up for events, services, or volunteer roles.
+### 🔐 Member Authentication
+Secure login for church members to access internal information and personalized services.
+- **Auto-login:** Stay logged in for a seamless experience.
+- **Secure Backend:** Authentication handled via Google Apps Script.
 
-### 📣 Announcements & Notifications
-Share important updates and send push notifications to the community.
+### 📝 Dynamic Content
+- **Excel Fragments:** Integrated viewing of spreadsheet data for administrative tasks.
+- **Newspaper View:** Access community news and announcements.
+- **Push Notifications:** Stay informed with important updates (Backend integrated).
+
+---
 
 ## 🛠 Tech Stack
 
-| Category               | Technology                        |
-|------------------------|-----------------------------------|
-| Backend Development    | Google Apps Script                |
-| Frontend Development   | Swift (iOS), Java (Android)       |
-| Scripting & Automation | JavaScript, Google Apps Script    |
-| Database               | Google Sheets (as lightweight DB) |
+| Component | Technology |
+| :--- | :--- |
+| **Platform** | Android (Java) |
+| **Networking** | Volley (for API requests) |
+| **Backend** | Google Apps Script (Web App) |
+| **Database** | Google Sheets (as lightweight DB) |
+| **UI Components** | RecyclerView, Fragments, ViewPager2 |
 
-# Add .gitignore and .gitattributes
+---
 
-- .gitignore excludes build artifacts, macOS metadata, Pods, etc.
-- .gitattributes ensures LF endings and merge strategies for Xcode files
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio (Electric Eel or newer recommended)
+- JDK 11+
+- Android Device or Emulator (API 21+)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Android_Knotenpunkt.git
+   ```
+2. Open the `Knotenpunkt` folder in Android Studio.
+3. Wait for Gradle sync to complete.
+4. Run the app on your device/emulator.
+
+---
+
+## 🏗 Architecture
+The app follows a modern Android architecture using:
+- **Fragments** for modular UI components.
+- **Volley** for robust network communication with the Google Apps Script backend.
+- **Shared Preferences** for lightweight local storage (e.g., login state).
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+*Developed by Amir Argani*
