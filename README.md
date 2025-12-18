@@ -1,26 +1,48 @@
-# 🙏 Worship Service Management App
+# 🏥 Worship Service Management - Backend
 
-A cross-platform mobile application designed to simplify church administration and enhance community engagement. Built for both **iOS** and **Android**, this app helps churches organize worship services, manage events, and communicate effectively with members.
+A robust backend solution built on **Google Apps Script** that serves as the central hub for church administration and community engagement. This project acts as a middleware between Google's productivity suite (Sheets & Calendar) and mobile applications (iOS/Android).
+
+## 🏗 System Architecture
+
+The project leverages Google Cloud Infrastructure to provide a lightweight, scalable, and cost-effective backend:
+- **Middleware:** Google Apps Script (JavaScript)
+- **Data Storage:** Google Sheets (Relational-style Document DB)
+- **Scheduling:** Google Calendar API
+- **Client Interface:** JSON via Web App API
 
 ## ✨ Features
 
-### 🗓 Worship Schedule Management
-Create, edit, and publish service plans with ease.
-
-### 📆 Calendar Integration
-View upcoming events, services, and activities in a unified calendar.
-
-### 📝 Registration System
-Allow members to sign up for events, services, or volunteer roles.
-
-### 📣 Announcements & Notifications
-Share important updates and send push notifications to the community.
+- **🗓 Real-time Calendar Sync:** Fetches worship schedules and events directly from Google Calendar with quarterly filtering.
+- **📆 Automated Data Management:** Manages quarterly service plans stored in structured Google Sheets.
+- **🔐 Secure Access:** Token-based authentication for data retrieval and simple user login system.
+- **🔄 Instant Updates:** Allows authorized users to update service details (e.g., moderators, speakers, cleaners) directly from the mobile app.
 
 ## 🛠 Tech Stack
 
 | Category               | Technology                        |
 |------------------------|-----------------------------------|
-| Backend Development    | Google Apps Script                |
-| Frontend Development   | Swift (iOS), Java (Android)       |
-| Scripting & Automation | JavaScript, Google Apps Script    |
-| Database               | Google Sheets (as lightweight DB) |
+| **Runtime Environment**| Google Apps Script                |
+| **Primary Language**   | JavaScript (ES6+)                 |
+| **Data Persistence**   | Google Sheets                     |
+| **Service Integration**| Google Calendar API               |
+| **Output Format**      | JSON (RESTful API simulation)     |
+
+## 📂 File Overview
+
+| File | Description |
+|------|-------------|
+| `getCalendar.js` | Fetches events from Google Calendar and returns them as formatted JSON. |
+| `getJSON.js` | Retrieves service planning data from quarterly Google Sheets. |
+| `getLogin.js` | Handles user authentication against a "Benutzer" (Users) sheet. |
+| `getUpdate.js` | Updates specific service details in Google Sheets based on mobile app input. |
+
+## 🚀 Deployment
+
+1. Create a new [Google Apps Script](https://script.google.com/) project.
+2. Copy the contents of the `.js` files into your project.
+3. Replace the placeholder URLs and IDs (e.g., Spreadsheet URLs, Calendar IDs) with your actual Google Resource details.
+4. Deploy as a **Web App** with "Execute as me" and "Access: Anyone (with token)".
+5. Use the provided tokens in your mobile application for authorization.
+
+---
+*Developed by Amir Argani*
