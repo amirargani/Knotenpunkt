@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge&logo=apache)](LICENSE)
 [![Language](https://img.shields.io/badge/Language-Java-orange.svg?style=for-the-badge&logo=java)](https://www.java.com/)
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg?style=for-the-badge&logo=windows)](https://www.android.com/)
-[![SDK](https://img.shields.io/badge/Min%20SDK-24%20(Android%207.0)-blue.svg?style=for-the-badge&logoColor=white)](https://developer.android.com/tools/releases/platforms?hl=us#7.0)
+[![SDK](https://img.shields.io/badge/Min%20SDK-24%20(Android%207.0)-blue.svg?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/tools/releases/platforms?hl=us#7.0)
 
 A professional Android application designed to streamline church administration and enhance community engagement. **Knotenpunkt** serves as the central platform for organizing worship services, managing events, and keeping the community connected.
 
