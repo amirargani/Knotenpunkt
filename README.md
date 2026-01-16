@@ -1,8 +1,8 @@
 # 🏥 Worship Service Management - Backend
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge&logo=apache)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Google%20Apps%20Script-lightgrey.svg?style=for-the-badge&logo=google)]()
-[![Language](https://img.shields.io/badge/Language-JavaScript-orange.svg?style=for-the-badge&logo=javascript)]()
+[![Platform](https://img.shields.io/badge/Platform-Google%20Apps%20Script-lightgrey.svg?style=for-the-badge&logo=google)](https://developers.google.com/apps-script)
+[![Language](https://img.shields.io/badge/Language-JavaScript-orange.svg?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 A robust backend solution built on **Google Apps Script** that serves as the central hub for church administration and community engagement. This project acts as a middleware between Google's productivity suite (Sheets & Calendar) and mobile applications (iOS/Android).
 
