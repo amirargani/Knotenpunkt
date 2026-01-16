@@ -1,6 +1,6 @@
 # 🏥 Worship Service Management - Backend
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge&logo=apache)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Google%20Apps%20Script-lightgrey.svg?style=for-the-badge&logo=google)]()
 [![Language](https://img.shields.io/badge/Language-JavaScript-orange.svg?style=for-the-badge&logo=javascript)]()
 
