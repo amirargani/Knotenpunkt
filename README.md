@@ -8,6 +8,11 @@
 A professional Android application designed to streamline church administration and enhance community engagement. **Knotenpunkt** serves as the central platform for organizing worship services, managing events, and keeping the community connected.
 
 ---
+### Android App – Video Demo
+
+[![Video ansehen](android_preview.png)](https://drive.google.com/file/d/1NF-JI1pa8NLGUz1z_YSyIqUtzyZSm3ge/view?usp=drive_link)
+
+---
 
 ## ✨ Features
 
