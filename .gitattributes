@@ -1,0 +1,61 @@
+# Global settings
+* text=auto eol=lf
+
+# XML/JSON resources
+*.xml text
+*.json text
+
+# Markdown / Docs
+*.md text
+*.txt text
+
+# iOS Project
+###########################
+# Objective-C / Swift Quellcode
+*.h text diff
+*.m text diff
+*.mm text diff
+*.swift text diff
+
+# Xcode Projektdateien
+*.pbxproj text merge=union
+
+# Interface Builder Dateien
+*.storyboard text merge=union
+*.xib text merge=union
+
+# Assets
+*.xcassets/** binary
+
+# Binary Assets
+###########################
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.mov binary
+*.mp4 binary
+*.ttf binary
+*.otf binary
+
+# Android Project
+###########################
+# Java source code
+*.java text diff
+
+# Kotlin (falls genutzt)
+*.kt text diff
+
+# Gradle files
+*.gradle text
+
+# Merge strategy for project files
+*.iml text merge=union
+*.idea/** text merge=union
+
+# JS Project
+###########################
+# source code
+*.js text diff
