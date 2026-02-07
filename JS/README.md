@@ -49,4 +49,5 @@ The project leverages Google Cloud Infrastructure to provide a lightweight, scal
 5. Use the provided tokens in your mobile application for authorization.
 
 ---
+
 *Developed by Amir Argani*
