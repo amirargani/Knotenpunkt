@@ -78,4 +78,5 @@ The app follows a modular iOS architecture using:
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
+
 *Developed by Amir Argani*
