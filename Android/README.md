@@ -80,4 +80,5 @@ The app follows a modern Android architecture using:
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
+
 *Developed by Amir Argani*
