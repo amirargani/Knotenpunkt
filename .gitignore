@@ -1,0 +1,31 @@
+# OS Specific
+.DS_Store
+Thumbs.db
+*.swp
+
+# iOS / Xcode
+iOS/DerivedData/
+iOS/*.xcuserstate
+iOS/*.xcscheme
+iOS/*.xcworkspace/xcuserdata/
+iOS/*.xcodeproj/xcuserdata/
+iOS/*.xcodeproj/project.xcworkspace/
+iOS/Pods/
+
+# Android
+Android/.gradle/
+Android/build/
+Android/local.properties
+Android/*.iml
+Android/.idea/workspace.xml
+Android/.idea/libraries/
+Android/.idea/modules.xml
+Android/.idea/gradle.xml
+Android/*.jks
+Android/*.keystore
+Android/captures/
+
+# JavaScript / Node
+JS/node_modules/
+JS/*.log
+JS/.DS_Store
